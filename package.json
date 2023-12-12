@@ -1,0 +1,17 @@
+{
+  "name": "s3pad",
+  "version": "1.0.0",
+  "description": "edit s3 files directly in cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "s3pad": "./src/index.js"
+  },
+  "author": "Pankaj Tanwar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1516.0"
+  }
+}
