@@ -1,19 +1,21 @@
-# S3pad - Edit Files Directly in Terminal
+# S3pad - Edit S3 Files Directly in Terminal
 
-S3pad is a command-line tool written in JavaScript that allows you to download, edit, and upload files directly from Amazon S3 in your terminal. It leverages the power of the Vim editor for file editing and provides a seamless workflow for handling S3 files.
+S3pad is a tiny command-line tool written in JavaScript that allows you to edit file directly from Amazon S3 without leaving your terminal. It leverages the power of the Vim editor for file editing and provides a seamless workflow for handling S3 files.
+
+> At work, we manage product configuration files on S3. Each time a configuration change is needed, it requires delving into the AWS jungle—logging in, navigating through S3, downloading the file, making edits, and then re-uploading the configuration file. This process is tedious and unnecessary, so I developed a small tool for swift edits directly without leaving my cozy command line. 
 
 ## Installation
 
 1. **Clone the repository:**
 
 ```
-git clone https://github.com/your-username/s3pad.git
+git clone https://github.com/Pankajtanwarbanna/s3pad.git
 ```
 
 2. **Navigate to the project directory**
 
 ```
-git clone https://github.com/your-username/s3pad.git
+git clone https://github.com/Pankajtanwarbanna/s3pad.git
 ```
 
 3. **Install dependencies**
@@ -29,7 +31,7 @@ npm link
 ```
 
 ## Requirements
-Vim installation on your system is recommended for better handling, but other vi editors can also be used.
+Vim installation on your system is recommended for better handling, but other vi editors can also be used. Along with this, node and npm is also required.
 
 ## How to Run
 
